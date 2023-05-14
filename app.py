@@ -5,6 +5,7 @@ Date: 2021-Dec-18
 '''
 
 import pickle
+import pandas as pd
 import streamlit as st
 import numpy as np
 
