@@ -2,5 +2,9 @@
 streamlit
 numpy
 scikit-learn
+pandas
+numpy
+matplotlib.pyplot
+seaborn
 ### local packages -
 -e . 
