@@ -1,16 +1,10 @@
-'''
-Author: Bappy Ahmed
-Email: entbappy73@gmail.com
-Date: 2021-Dec-18
-'''
-
 import pickle
 import pandas as pd
 import streamlit as st
 import numpy as np
 
 
-st.header('Book Recommender System Using Machine Learning')
+st.header('Book Recommender')
 model = pd.read_pickle(open('artifacts/model.pkl','rb'))
 book_names = pd.read_pickle(open('artifacts/book_names.pkl','rb'))
 final_rating = pd.read_pickle(open('artifacts/final_rating.pkl','rb'))
